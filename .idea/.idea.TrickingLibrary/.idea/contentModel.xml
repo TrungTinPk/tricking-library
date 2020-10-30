@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Gaby\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gaby\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TrickingLibrary.-1104201905.00" t="ExcludeRecursive" />
+    <e p="D:\1. Working\2. Personal\2. Project\TrickingLibrary" t="IncludeFlat">
+      <e p="app-client\node_modules\@nuxt\config" t="IncludeRecursive" />
+      <e p="app-client\node_modules\@nuxt\vue-app" t="IncludeRecursive" />
+      <e p="app-client\node_modules\@nuxtjs\axios" t="IncludeRecursive" />
+      <e p="app-client\node_modules\@nuxtjs\vuetify" t="IncludeRecursive" />
+      <e p="app-client\node_modules\@types" t="IncludeRecursive">
+        <e p="anymatch" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+        <e p="source-list-map" t="IncludeRecursive" />
+        <e p="tapable" t="IncludeRecursive" />
+        <e p="uglify-js" t="IncludeRecursive" />
+        <e p="webpack-sources" t="IncludeRecursive" />
+      </e>
+      <e p="app-client\node_modules\@vue\component-compiler-utils" t="IncludeRecursive" />
+      <e p="app-client\node_modules\acorn" t="IncludeRecursive" />
+      <e p="app-client\node_modules\axios" t="IncludeRecursive" />
+      <e p="app-client\node_modules\axios-retry" t="IncludeRecursive" />
+      <e p="app-client\node_modules\commander" t="IncludeRecursive" />
+      <e p="app-client\node_modules\consola" t="IncludeRecursive" />
+      <e p="app-client\node_modules\core-js" t="IncludeRecursive" />
+      <e p="app-client\node_modules\create-require" t="IncludeRecursive" />
+      <e p="app-client\node_modules\defu" t="IncludeRecursive" />
+      <e p="app-client\node_modules\destr" t="IncludeRecursive" />
+      <e p="app-client\node_modules\execa" t="IncludeRecursive" />
+      <e p="app-client\node_modules\figures" t="IncludeRecursive" />
+      <e p="app-client\node_modules\get-stream" t="IncludeRecursive" />
+      <e p="app-client\node_modules\hable" t="IncludeRecursive" />
+      <e p="app-client\node_modules\is-stream" t="IncludeRecursive" />
+      <e p="app-client\node_modules\jiti" t="IncludeRecursive" />
+      <e p="app-client\node_modules\mimic-fn" t="IncludeRecursive" />
+      <e p="app-client\node_modules\npm-run-path" t="IncludeRecursive" />
+      <e p="app-client\node_modules\nuxt" t="IncludeRecursive" />
+      <e p="app-client\node_modules\onetime" t="IncludeRecursive" />
+      <e p="app-client\node_modules\path-key" t="IncludeRecursive" />
+      <e p="app-client\node_modules\postcss" t="IncludeRecursive" />
+      <e p="app-client\node_modules\postcss-selector-parser" t="IncludeRecursive" />
+      <e p="app-client\node_modules\rc9" t="IncludeRecursive" />
+      <e p="app-client\node_modules\source-map" t="IncludeRecursive" />
+      <e p="app-client\node_modules\terser" t="IncludeRecursive" />
+      <e p="app-client\node_modules\tslib" t="IncludeRecursive" />
+      <e p="app-client\node_modules\unfetch" t="IncludeRecursive" />
+      <e p="app-client\node_modules\vue" t="IncludeRecursive" />
+      <e p="app-client\node_modules\vue-loader" t="IncludeRecursive" />
+      <e p="app-client\node_modules\vue-meta" t="IncludeRecursive" />
+      <e p="app-client\node_modules\vue-router" t="IncludeRecursive" />
+      <e p="app-client\node_modules\vue-server-renderer" t="IncludeRecursive" />
+      <e p="app-client\node_modules\vue-template-compiler" t="IncludeRecursive" />
+      <e p="app-client\node_modules\vuetify" t="IncludeRecursive" />
+      <e p="app-client\node_modules\vuex" t="IncludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TrickingLibrary.API" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="Home.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TrickingLibrary.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="TrickingLibrary.API.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TrickingLibrary.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
