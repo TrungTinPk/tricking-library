@@ -9,10 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55a7aad-2c51-4ca2-8943-f8bd45d4cf5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/Home.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/build.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app-client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -28,6 +27,7 @@
         <option value="$PROJECT_DIR$/TrickingLibrary.API/Controllers/Home.cs" />
         <option value="$PROJECT_DIR$/web-client/pages/index.vue" />
         <option value="$PROJECT_DIR$/TrickingLibrary.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/.github/workflows/build.yaml" />
         <option value="$PROJECT_DIR$/app-client/pages/index.vue" />
       </list>
     </option>
@@ -78,7 +78,7 @@
       <workItem from="1604029529578" duration="2666000" />
       <workItem from="1604039689850" duration="1118000" />
       <workItem from="1604041640544" duration="2579000" />
-      <workItem from="1604044317269" duration="1761000" />
+      <workItem from="1604044317269" duration="2714000" />
     </task>
     <servers />
   </component>
