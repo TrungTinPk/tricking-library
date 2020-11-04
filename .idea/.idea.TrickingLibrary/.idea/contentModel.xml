@@ -58,8 +58,9 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="Home.cs" t="Include" />
-          <e p="Tricks.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="TricksController.cs" t="Include" />
+          <e p="VideoController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="Trick.cs" t="Include" />
@@ -78,6 +79,7 @@
         <e p="Startup.cs" t="Include" />
         <e p="TrickingLibrary.API.csproj" t="IncludeRecursive" />
         <e p="TrickyStore.cs" t="Include" />
+        <e p="wwwroot" t="Include" />
       </e>
       <e p="TrickingLibrary.sln" t="IncludeFlat" />
     </e>
