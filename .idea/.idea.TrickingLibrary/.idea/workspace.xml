@@ -9,7 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55a7aad-2c51-4ca2-8943-f8bd45d4cf5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/SubmissionsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Data/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Models/BaseModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Models/Submission.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/TricksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/TricksController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/VideoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/VideosController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Models/Trick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.Models/Trick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/TrickingLibrary.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/TrickingLibrary.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/TrickyStore.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrickingLibrary.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +46,34 @@
         <option value="$PROJECT_DIR$/web-client/pages/index.vue" />
         <option value="$PROJECT_DIR$/.github/workflows/build.yaml" />
         <option value="$PROJECT_DIR$/TrickingLibrary.API/TrickyStore.cs" />
-        <option value="$PROJECT_DIR$/TrickingLibrary.API/Startup.cs" />
         <option value="$PROJECT_DIR$/TrickingLibrary.API/Controllers/Tricks.cs" />
         <option value="$PROJECT_DIR$/TrickingLibrary.API/Models/Trick.cs" />
         <option value="$PROJECT_DIR$/TrickingLibrary.API/Controllers/VideoController.cs" />
-        <option value="$PROJECT_DIR$/app-client/store/index.js" />
         <option value="$PROJECT_DIR$/app-client/nuxt.config.js" />
         <option value="$PROJECT_DIR$/app-client/data/enum.js" />
-        <option value="$PROJECT_DIR$/app-client/store/tricks.js" />
         <option value="$PROJECT_DIR$/app-client/store/videos.js" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.Models/Class1.cs" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.Data/Class1.cs" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.Data/AppDbContext.cs" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.API/Controllers/SubmissionsController.cs" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.API/Controllers/VideosController.cs" />
         <option value="$PROJECT_DIR$/app-client/components/video-upload.vue" />
+        <option value="$PROJECT_DIR$/app-client/components/_trick.vue" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.Models/BaseModel.cs" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.Models/Trick.cs" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.Models/Submission.cs" />
+        <option value="$PROJECT_DIR$/TrickingLibrary.API/Controllers/TricksController.cs" />
+        <option value="$PROJECT_DIR$/app-client/pages/tricks/_trick.vue" />
         <option value="$PROJECT_DIR$/app-client/pages/index.vue" />
+        <option value="$PROJECT_DIR$/app-client/store/index.js" />
+        <option value="$PROJECT_DIR$/app-client/store/submission.js" />
+        <option value="$PROJECT_DIR$/app-client/store/tricks.js" />
         <option value="$PROJECT_DIR$/app-client/layouts/default.vue" />
+        <option value="$PROJECT_DIR$/app-client/components/content-creation/submission-steps.vue" />
+        <option value="$PROJECT_DIR$/app-client/components/content-creation/trick-steps.vue" />
+        <option value="$PROJECT_DIR$/app-client/store/video-upload.js" />
+        <option value="$PROJECT_DIR$/app-client/components/content-creation/content-creation-dialog.vue" />
       </list>
     </option>
   </component>
@@ -59,6 +87,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -66,7 +96,7 @@
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Launch Settings Profile.TrickingLibrary.API: IIS Express">
     <configuration name="TrickingLibrary.API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TrickingLibrary.API/TrickingLibrary.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -82,6 +112,26 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="TrickingLibrary.API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TrickingLibrary.API/TrickingLibrary.API.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Launch Settings Profile.TrickingLibrary.API: IIS Express" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,6 +147,8 @@
       <workItem from="1604041640544" duration="2579000" />
       <workItem from="1604044317269" duration="15788000" />
       <workItem from="1604455331819" duration="17214000" />
+      <workItem from="1604543013828" duration="15142000" />
+      <workItem from="1604655283541" duration="7237000" />
     </task>
     <servers />
   </component>
@@ -128,10 +180,94 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="678" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604027202280" />
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1604026506255">
+    <state width="397" height="464" key="DebuggerActiveHint" timestamp="1604563232284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1604026506255" />
+    <state width="397" height="464" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1604563232284" />
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.4.bottom" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.4.center" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.4.left" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state width="1877" height="375" key="GridCell.Tab.4.right" timestamp="1604572196804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604572196804" />
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1604545471044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1604545471044" />
     <state x="891" y="265" key="RollbackChangesDialog" timestamp="1604455528045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -144,9 +280,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="638" y="119" width="644" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604481173345" />
-    <state x="887" y="222" width="672" height="678" key="search.everywhere.popup" timestamp="1604028334646">
+    <state x="887" y="222" width="672" height="678" key="search.everywhere.popup" timestamp="1604656503816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="887" y="222" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604028334646" />
+    <state x="887" y="222" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604656503816" />
   </component>
 </project>

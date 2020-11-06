@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Gaby\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Gaby\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TrickingLibrary.-1104201905.00" t="ExcludeRecursive" />
-    <e p="D:\1. Working\2. Personal\2. Project\TrickingLibrary" t="IncludeFlat">
+    <e p="C:\Projects\4. Others\TrickingLibrary" t="IncludeFlat">
       <e p="app-client\node_modules\@nuxt\config" t="IncludeRecursive" />
       <e p="app-client\node_modules\@nuxt\vue-app" t="IncludeRecursive" />
       <e p="app-client\node_modules\@nuxtjs\axios" t="IncludeRecursive" />
@@ -59,12 +57,11 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
+          <e p="SubmissionsController.cs" t="Include" />
           <e p="TricksController.cs" t="Include" />
-          <e p="VideoController.cs" t="Include" />
+          <e p="VideosController.cs" t="Include" />
         </e>
-        <e p="Models" t="Include">
-          <e p="Trick.cs" t="Include" />
-        </e>
+        <e p="Models" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -78,10 +75,39 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="TrickingLibrary.API.csproj" t="IncludeRecursive" />
-        <e p="TrickyStore.cs" t="Include" />
-        <e p="wwwroot" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="npy3negw.mp4" t="Include" />
+        </e>
+      </e>
+      <e p="TrickingLibrary.Data" t="IncludeRecursive">
+        <e p="AppDbContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TrickingLibrary.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TrickingLibrary.Data.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="TrickingLibrary.Models" t="IncludeRecursive">
+        <e p="BaseModel.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="TrickingLibrary.Models.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Submission.cs" t="Include" />
+        <e p="Trick.cs" t="Include" />
+        <e p="TrickingLibrary.Models.csproj" t="IncludeRecursive" />
       </e>
       <e p="TrickingLibrary.sln" t="IncludeFlat" />
     </e>
+    <e p="C:\Users\tinttran\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\tinttran\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TrickingLibrary.567547616.00" t="ExcludeRecursive" />
   </component>
 </project>

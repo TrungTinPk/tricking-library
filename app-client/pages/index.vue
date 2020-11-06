@@ -1,17 +1,25 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-
+      <div v-if="tricks">
+        <div v-for="t in tricks">
+          <v-btn :to="`/tricks/${t.id}`">{{t.name}}</v-btn>
+        </div>
+      </div>
     </v-col>
   </v-row>
 
 </template>
 
 <script>
-import {mapState, mapActions, mapMutations} from 'vuex'
-import {UPLOAD_TYPE} from '@/data/enum';
+import {mapState} from 'vuex'
 export default {
-  components: {},
-  computed: mapState('tricks', ["tricks"])
+  computed: {
+    ...mapState('tricks', ["tricks"])
+  },
+  async fetch(){
+    await this.$store.dispatch("tricks/fetchTricks", null,{root: true});
+  }
 }
 </script>
+

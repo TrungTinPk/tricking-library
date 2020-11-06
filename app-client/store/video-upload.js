@@ -1,25 +1,20 @@
 ﻿const  initState = () => ({
   uploadPromise: null,
   active: false,
-  type: "",
-  step: 1
+  component: null
 })
 
 export  const  state = initState
 export  const  mutations = {
-  toggleActivity(state){
-    state.active = !state.status;
-    if (!state.active){
-      Object.assign(state,initState())
-    }
+  activate(state, {component}){
+    state.active = true;
+    state.component = component;
   },
-  setType(state, {type}){
-    state.type = type;
-    state.step++;
+  hide(state){
+    state.active = false;
   },
   setUploadPromise(state, {uploadPromise}){
     state.uploadPromise = uploadPromise;
-    state.step++;
   },
   reset(state){
     Object.assign(state,initState())
@@ -28,11 +23,17 @@ export  const  mutations = {
 
 export  const  actions = {
   async startVideoUpload({commit, dispatch},{form}){
-    const uploadPromise = await this.$axios.$post("/api/tricks", form);
-    commit("setUploadPromise",uploadPromise);
+    const uploadPromise = await this.$axios.$post("/api/videos", form);
+    commit("setUploadPromise",{uploadPromise});
   },
-  async creatTrick({commit, dispatch},{trick}){
-    await this.$axios.$post("/api/tricks", trick);
-    await dispatch("tricks/fetchTricks");
+  async createSubmission({state, commit, dispatch},{form}){
+    if (!state.uploadPromise) {
+      console.log("Upload Video Null");
+      return
+    }
+
+    form.video = await state.uploadPromise;
+    await dispatch('submission/createSubmission',{form},{root:true});
+    commit('reset');
   }
 }

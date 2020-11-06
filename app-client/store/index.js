@@ -8,8 +8,7 @@ export  const  mutations = {
 }
 
 export  const  actions = {
-  async nuxtServerInit({commit, dispatch}){
-    const message = await this.$axios.$get("http://localhost:5000/api/home");
-    await dispatch("tricks/fetchTricks");
+  async nuxtServerInit({dispatch}){
+    dispatch("tricks/fetchTricks")
   }
 }
