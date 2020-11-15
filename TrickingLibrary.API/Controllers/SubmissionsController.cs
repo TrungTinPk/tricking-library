@@ -1,10 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using TrickingLibrary.API.BackgroundServices;
+using TrickingLibrary.API.Form;
+using TrickingLibrary.API.BackgroundServices.VideoEditing;
 using TrickingLibrary.Data;
 using TrickingLibrary.Models;
+
 
 namespace TrickingLibrary.API.Controllers
 {
@@ -20,17 +25,38 @@ namespace TrickingLibrary.API.Controllers
         }
         
         [HttpGet]
-        public IEnumerable<Submission> All() => _ctx.Submissions.ToList();
+        public IEnumerable<Submission> All() => _ctx.Submissions
+            .Where(x => x.VideoProcessed)
+            .ToList();
         
         [HttpGet("{id}")]
         public Trick Get(int id) => _ctx.Tricks.FirstOrDefault(x => x.Id.Equals(id));
 
         [HttpPost]
-        public async Task<Submission> Create([FromBody] Submission submission)
+        public async Task<IActionResult> Create(
+            [FromBody] SubmissionForm submissionForm,
+            [FromServices] Channel<EditVideoMessage> channel,
+            [FromServices] VideoManager videoManager)
         {
+            if (!videoManager.TemporaryVideoExits(submissionForm.Video))
+            {
+                return BadRequest();
+            }
+            var submission = new Submission
+            {
+                TrickId = submissionForm.TrickId,
+                Description = submissionForm.Description,
+                VideoProcessed = false
+            };
             _ctx.Add(submission);
             await _ctx.SaveChangesAsync();
-            return submission;
+            await channel.Writer.WriteAsync(new EditVideoMessage()
+            {
+                SubmissionId = submission.Id,
+                Input = submissionForm.Video
+            });
+            
+            return Ok(submission);
         }
         
         [HttpPut]

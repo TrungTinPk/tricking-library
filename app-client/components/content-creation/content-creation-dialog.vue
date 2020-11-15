@@ -1,5 +1,5 @@
 ﻿<template>
-  <v-dialog :value="active" persistent>
+  <v-dialog :value="active" persistent max-width="600">
     <template v-slot:activator="{on}">
       <v-menu offset-y>
         <template v-slot:activator="{ on, attrs }">
@@ -14,17 +14,15 @@
         </v-list>
       </v-menu>
     </template>
-    <trick-steps />
    <div v-if="component">
      <component :is="component"></component>
    </div>
-    <v-card>
-      <v-card-actions>
-        <v-spacer></v-spacer>
-        <v-btn color="primary" text @click="reset">Close</v-btn>
-      </v-card-actions>
-    </v-card>
-
+<!--    <v-card>-->
+<!--      <v-card-actions>-->
+<!--        <v-spacer></v-spacer>-->
+<!--        <v-btn color="primary" text @click="cancelUpload">Close</v-btn>-->
+<!--      </v-card-actions>-->
+<!--    </v-card>-->
   </v-dialog>
 </template>
 
@@ -32,20 +30,24 @@
 import {mapState, mapMutations} from 'vuex'
 import TrickSteps from "@/components/content-creation/trick-steps";
 import SubmissionSteps from "@/components/content-creation/submission-steps";
+import DifficultyForm from "@/components/content-creation/difficulty-form";
+import CategoryForm from "@/components/content-creation/category-form";
 
 export default {
   name: "content-creation-dialog",
-  components: {SubmissionSteps, TrickSteps},
+  components: {CategoryForm, DifficultyForm, SubmissionSteps, TrickSteps},
   computed: {
     ...mapState('video-upload', ['active','component']),
     menuItems() {
       return[
         {component : TrickSteps, title: 'Trick'},
-        {component : SubmissionSteps, title: 'Submission'}
+        {component : SubmissionSteps, title: 'Submission'},
+        {component : DifficultyForm, title: 'Difficulty'},
+        {component : CategoryForm, title: 'Category'}
       ]
     }
   },
-  methods: mapMutations('video-upload', ['reset','activate'])
+  methods: mapMutations('video-upload', ['activate'])
 }
 </script>
 

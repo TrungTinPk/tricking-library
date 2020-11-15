@@ -1,12 +1,16 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-app-bar app dense>
-      <v-toolbar-title>Tricking Library</v-toolbar-title>
+      <nuxt-link class="text--primary text-h5" style="text-decoration: none" to="/">Tricking Library</nuxt-link>
+      <v-toolbar-title></v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-btn to="/moderation"></v-btn>
       <content-creation-dialog></content-creation-dialog>
     </v-app-bar>
     <v-main>
-      <nuxt />
+      <v-container>
+        <nuxt />
+      </v-container>
     </v-main>
   </v-app>
 </template>
