@@ -9,36 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55a7aad-2c51-4ca2-8943-f8bd45d4cf5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/BackgroundServices/VideoEditing/EditVideoMessage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/BackgroundServices/VideoEditing/VideoEditingBackgroundService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/BackgroundServices/VideoEditing/VideoManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/CategoryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/DifficultyController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/ModerationItemController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/Form/SubmissionForm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/Form/TrickForm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.API/ViewModels/TrickViewModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Models/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Models/Difficutly.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Models/Moderation/ModerationItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Models/Moderation/ModerationType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Models/TrickCategory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Models/TrickRelationship.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrickingLibrary.Models/Video.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrickingLibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/HomeController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/SubmissionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/SubmissionsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/TricksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/TricksController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/VideosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/Controllers/VideosController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/TrickingLibrary.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.API/TrickingLibrary.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.API/wwwroot/npy3negw.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.Data/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.Models/Submission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.Models/Submission.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrickingLibrary.Models/Trick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TrickingLibrary.Models/Trick.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +171,7 @@
       <workItem from="1604973956963" duration="23070000" />
       <workItem from="1605068020467" duration="8004000" />
       <workItem from="1605082954215" duration="38276000" />
-      <workItem from="1605261707712" duration="11867000" />
+      <workItem from="1605261707712" duration="12515000" />
     </task>
     <servers />
   </component>
