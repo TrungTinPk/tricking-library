@@ -4,7 +4,7 @@
       <nuxt-link class="text--primary text-h5" style="text-decoration: none" to="/">Tricking Library</nuxt-link>
       <v-toolbar-title></v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn to="/moderation"></v-btn>
+      <v-btn to="/moderation">Moderation</v-btn>
       <content-creation-dialog></content-creation-dialog>
     </v-app-bar>
     <v-main>
