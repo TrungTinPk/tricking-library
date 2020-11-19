@@ -1,8 +1,25 @@
 import colors from 'vuetify/es5/util/colors'
+import path from 'path'
+import fs from 'fs'
 
 export default {
-  publicRuntimeConfiguration:{
-    api: process.env.API_URL
+  publicRuntimeConfig:{
+    axios: {
+      baseURL:"https://localhost:5001",
+      https: true
+    }
+  },
+  privateRuntimeConfig:{
+    axios: {
+      baseURL:"http://localhost:5000",
+      https: false
+    }
+  },
+  server: {
+    https: {
+      key: fs.readFileSync(path.relative(__dirname,'server.key')),
+      cert: fs.readFileSync(path.relative(__dirname,'server.cert'))
+    }
   },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -25,6 +42,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    {src: '~/plugins/client-init.js', mode: 'client'}
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -43,9 +61,6 @@ export default {
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {
-    baseURL:"http://localhost:5000"
-  },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {

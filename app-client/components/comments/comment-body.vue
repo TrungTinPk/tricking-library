@@ -1,10 +1,14 @@
 ﻿<template>
-  <div>
-    <p v-html="comment.htmlContent"></p>
-    <v-btn small v-if="!replying" @click="replying = true">Reply</v-btn>
-    <v-btn small v-if="$listeners['load-replies']" @click="$emit('load-replies')">Load Replies</v-btn>
+  <div class="my-1">
+    <div>
+      <p class="mb-1" v-html="comment.htmlContent"></p>
+      <v-btn small text v-if="!replying" @click="replying = true">reply</v-btn>
+      <v-btn small text v-if="$listeners['load-replies']" @click="$emit('load-replies')">load replies</v-btn>
+    </div>
+
+    <comment-input label="Reply" v-if="replying" @send="(c) => $emit('send', c)" @cancel="replying = false" />
+
   </div>
-  <comment-input v-if="replying" @send="(c) => $emit('send',c)" @cancel="replying = false"></comment-input>
 </template>
 
 <script>
